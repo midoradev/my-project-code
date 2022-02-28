@@ -1,2 +1,2 @@
-# typescript-bot-discord-online
-Test Discord Bot by using Typescript
+# Test Discord Bot
+Test Discord Bot by using Typescript and discord.js
