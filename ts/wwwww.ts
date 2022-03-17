@@ -229,3 +229,29 @@ export class BotMessage implements IBotMessage {
         return this.richText
     }
 }
+
+//util
+import { IUser } from './api'
+
+export const getRandomInt = (min: number, max: number): number => {
+    return Math.floor(min + Math.random() * (max - min + 1))
+}
+export const getUserString = (user: IUser): string => {
+    return `<@${user.id}>`
+}
+
+//index
+import { IBot, IBotConfig, ILogger } from './api'
+import { Bot } from './bot'
+
+const logger: ILogger = console
+
+let cfg = require('./../bot.json') as IBotConfig
+try {
+    const cfgProd = require('./../bot.prod.json') as IBotConfig
+    cfg = { ...cfg, ...cfgProd }
+} catch {
+    logger.info('no production config found...')
+}
+
+new Bot().start(logger, cfg, `${__dirname}/commands`, `${__dirname}/../data`)
