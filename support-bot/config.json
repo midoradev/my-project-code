@@ -1,0 +1,24 @@
+{
+    "defaults": {
+        "prefix": "=",
+        "statusType": "WATCHING",
+        "statusMessage": "StarskyBot Server"
+    },
+
+    "suggestion": {
+        "channelid" : "974868453229989959",
+        "toggle" : true
+    },
+      "feedback": {
+        "channelid" : "974868915278733332",
+        "toggle" : true
+    },
+    "addrole": {
+        "toggle" : true
+    },
+
+    "removerole": {
+        "toggle" : true
+    },
+    "OwnerID": "897838071922446466"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "support-bot",
+  "version": "1.0.5",
+  "description": "SupportBot for StarskyBot Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "notmythdora#3234",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.11.0",
+    "dotenv": "^16.0.2",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "monk": "^7.3.4",
+    "ms": "^2.1.3"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "devDependencies": {
+    "node": "^18.4.0"
+  }
+}
