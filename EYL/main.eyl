@@ -1,0 +1,16 @@
+>> send Hello World to your screen
+send "Hello World".
+
+>> like import
+take [ ] from "".
+
+>> action test
+take action from "src/pakage.eyl".
+
+take [ png ] from "img/image.png".
+
+if action = 1 (none{src} | show: 'png'),
+
+do action == none:'action'
+
+enter / function: action

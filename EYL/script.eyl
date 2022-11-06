@@ -1,0 +1,12 @@
+>> main
+take script from "src/script/none.eyl".
+
+do script == none: 'script'
+
+acsses wlmp from "enter/function/kol/noFunction.eyl"
+
+if script = imp "src/test/none.eyl" let fullscript || {[ 404 ]}.
+
+enter / noFunction: script{wlmp} | content: true
+
+>> enter function

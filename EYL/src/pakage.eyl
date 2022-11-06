@@ -1,0 +1,5 @@
+do allFunction
+
+debug: "src".
+
+enter / allFunction: none | content: true

@@ -1,0 +1,3 @@
+do fullFunction{script}
+
+enter / fullFunction: msg:{remake[debug]} | content: true
