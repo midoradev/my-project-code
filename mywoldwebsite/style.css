@@ -1,0 +1,214 @@
+@font-face {
+    font-family: milk;
+    src: url(font/milk.ttf);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  a {
+    all: unset;
+    display: block;
+  }
+  .no-margin {
+    margin: 0;
+  }
+  .no-padding {
+    padding: 0;
+  }
+  body,
+  h1,
+  h2,
+  p,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-weight: normal;
+  }
+  .material-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body {
+    background-color: #D8F0FF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #C2E8FF;
+  }
+  header .logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 2vmin;
+  }
+  header .logo h1 {
+    font-weight: normal;
+    font-size: 6vmin;
+    padding-left: 2vh;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+  }
+  header .logo img {
+    width: 10vmin;
+  }
+  header .navigation {
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 3vmin;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+  }
+  header .navigation .no-margin {
+    margin: 0px;
+  }
+  header .navigation li {
+    margin-right: 2vh;
+    display: flex;
+    align-items: center;
+    padding: 1.5vmin;
+    background-color: #B3E0FA;
+    border-radius: 1vmin;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  }
+  header .navigation li:hover {
+    transition-duration: 0.3s;
+    transform: scale(0.9);
+    color: #C2E8FF;
+  }
+  header .navigation .material-icons{
+    padding-right: 1vmin;
+  }
+  header .navigation .fa-brands.fa-discord {
+    padding-right: 1vmin;
+  }
+  header .navigation .fa-brands.fa-github {
+    padding-right: 1vmin;
+  }
+  header .navigation .fa-brands.fa-youtube {
+    padding-right: 1vmin;
+  }
+  header .navigation .fa-solid.fa-plus-large {
+    padding-right: 1vmin;
+  }
+  header .invite {
+    transform: scale(0);
+    animation: bounce-in 1s ease-in-out 2s 1 normal both;
+    background-color: #9BD6F8;
+    border-radius: 2vmin;
+    padding: 0.5vmax;
+    font-size: 1.5vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10vmax;
+  }
+  header .invite .material-icons {
+    font-size: 2vmax;
+  }
+  .hello-logo {
+    animation: bounce-in 1s ease-in-out 0s 1 normal;
+  }
+  .hello {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: white;
+  }
+  .hello img {
+    padding: 10vmin;
+    width: 40vw;
+  }
+  .hello article {
+    animation: slideInRight 1s ease-in-out 0s 1 normal;
+    font-size: 4vmin;
+    padding: 10vmin;
+  }
+  .hello .material-icons {
+    font-size: 3vmin;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    background-color: #9BD6F8;
+    color: whitesmoke;
+  }
+  footer p {
+    font-size: 3vmin;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .error {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin: 100px;
+  }
+
+  @keyframes change-background {
+    from {
+      background-position-x: -32px;
+      background-position-y: -32px;
+    }
+    to {
+      background-position-x: 32px;
+      background-position-y: 32px;
+    }
+  }
+  @keyframes bounce-in {
+    0% {
+      opacity: 0;
+      transform: scale(0.3);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @media (max-width: 820px) {
+    .logo h1 {
+      display: none;
+    }
+    .hello {
+      flex-direction: column;
+    }
+    .hello h1 {
+      padding: 10vmin 5vmin 5vmin 5vmin;
+    }
+    .hello img {
+      padding: 10vmin 0 0 0;
+    }
+  }
+  
