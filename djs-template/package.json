@@ -1,0 +1,17 @@
+{
+  "name": "djs-template",
+  "version": "1.0.0",
+  "description": "A simple discord.js template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "midora#3234",
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}

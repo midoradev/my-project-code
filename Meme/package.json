@@ -1,0 +1,19 @@
+{
+  "name": "meme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "got": "^11.8.6",
+    "guilded.js": "^0.17.0",
+    "mongoose": "^6.8.4",
+    "pretty-ms": "^7.0.1"
+  }
+}

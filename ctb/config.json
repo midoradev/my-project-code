@@ -1,0 +1,6 @@
+{
+  "messages": {
+    "COOLDOWN_MESSAGE": "**Hey <user>, please wait for `<duration>` to use command again!**"
+  },
+  "OwnerID": ["897838071922446466"]
+}
