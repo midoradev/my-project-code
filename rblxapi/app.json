@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": 2440500124,
+      "rootPlaceId": 6516141723,
+      "name": "DOORS 👁️",
+      "description": "A new and unique horror game involving... doors.\r\n\r\n⭐UGC in Shop: buy any for a bonus of some Knobs and a Revive! Might have to wear accessories to it to register.\r\n\r\n❗ It is HEAVILY RECOMMENDED that you play this game without any help or guide; it's trial and error. Use each death as a lesson.\r\n\r\n⚠️ Epilepsy and sound warning. \r\n🎧 Headphones recommended.\r\n📷 Max or 60% graphics recommended\r\n\r\n👍 If you like the game... give it a like!\r\n❤️ Join the LSPLASH group for a free Revive!\r\n\r\n🛠️ This game is in Alpha; Many things are subject to change, and some things may break.\r\n\r\nLightning_Splash: Programming, Game / UI / Graphics Design, Audio Engineer, Music Producer & Composer, Animator, Writer\r\n\r\nRediblesQW: Builder, Modeler, Environment Artist, Game Design, Writer\r\n\r\nGhostly_Wowzers: Extra Graphics Design\r\n\r\n🎵 All music is non-copyright, can be found on Soundcloud (LightningSplash)\r\n\r\nInspired by nicorocks5555's Rooms and Spooky's Jumpscare Mansion",
+      "sourceName": "DOORS 👁️",
+      "sourceDescription": "A new and unique horror game involving... doors.\r\n\r\n⭐UGC in Shop: buy any for a bonus of some Knobs and a Revive! Might have to wear accessories to it to register.\r\n\r\n❗ It is HEAVILY RECOMMENDED that you play this game without any help or guide; it's trial and error. Use each death as a lesson.\r\n\r\n⚠️ Epilepsy and sound warning. \r\n🎧 Headphones recommended.\r\n📷 Max or 60% graphics recommended\r\n\r\n👍 If you like the game... give it a like!\r\n❤️ Join the LSPLASH group for a free Revive!\r\n\r\n🛠️ This game is in Alpha; Many things are subject to change, and some things may break.\r\n\r\nLightning_Splash: Programming, Game / UI / Graphics Design, Audio Engineer, Music Producer & Composer, Animator, Writer\r\n\r\nRediblesQW: Builder, Modeler, Environment Artist, Game Design, Writer\r\n\r\nGhostly_Wowzers: Extra Graphics Design\r\n\r\n🎵 All music is non-copyright, can be found on Soundcloud (LightningSplash)\r\n\r\nInspired by nicorocks5555's Rooms and Spooky's Jumpscare Mansion",
+      "creator": {
+        "id": 3049798,
+        "name": "LSPLASH",
+        "type": "Group",
+        "isRNVAccount": false,
+        "hasVerifiedBadge": false
+      },
+      "price": null,
+      "allowedGearGenres": ["Adventure"],
+      "allowedGearCategories": [],
+      "isGenreEnforced": true,
+      "copyingAllowed": false,
+      "playing": 75395,
+      "visits": 516468781,
+      "maxPlayers": 40,
+      "created": "2021-03-14T02:20:27.43Z",
+      "updated": "2022-09-27T22:28:25.4374075Z",
+      "studioAccessToApisAllowed": false,
+      "createVipServersAllowed": true,
+      "universeAvatarType": "MorphToR15",
+      "genre": "Adventure",
+      "isAllGenre": false,
+      "isFavoritedByUser": false,
+      "favoritedCount": 1690851
+    }
+  ]
+}
